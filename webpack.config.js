@@ -7,7 +7,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename:"build.js",
-    publicPath: '/dist/',
+    publicPath: './dist/',
    
   },
   module: {
