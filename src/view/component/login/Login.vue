@@ -19,6 +19,7 @@
         name:"Login",
         methods:{
             loginButton(e){
+                _hmt.push(["_trackEvent", "login", "click", "登入"])
                 // console.log(window.localStorage)
                 // console.log(window.sessionStorage)
                 // console.log(document.cookie)
